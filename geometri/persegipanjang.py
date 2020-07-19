@@ -6,8 +6,10 @@
 
 # class itu adalah type data
 # objek adalah variabelnya
+from geometri.bangun_ruang import BangunRuang
 
-class PersegiPanjang():
+
+class PersegiPanjang(BangunRuang):
     def __init__(self, p, l):
         # fungsi yang dipanggil pertama kali saat object diciptakan
         self.p = p
