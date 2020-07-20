@@ -2,6 +2,7 @@ from geometri.bangun_ruang import BangunRuang
 from geometri.persegipanjang import PersegiPanjang
 from geometri.segitiga import Segitiga
 
+# Object adalah sesuatu yang bisa kamu identifikasi
 print('Menggunakan OOP')
 # p1 adalah objek, PersegiPanjang adalah classnya
 p1 = PersegiPanjang(10, 3)
@@ -31,3 +32,4 @@ daftar_bangun_ruang.append(s1)
 print('\nPolymorphism')
 for bangun_ruang in daftar_bangun_ruang:
     print(bangun_ruang.info())
+    print(bangun_ruang.hitung_luas())
